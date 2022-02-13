@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học từ bằng hình ảnh"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/red"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/yellow">
+
+            <Button
+                android:id="@+id/btn_fruits"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:text="Fruit"
+                android:layout_margin="20dp"
+                android:drawableTop="@drawable/strawberry"
+                android:background="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_vegetables"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:text="Vegetables"
+                android:layout_margin="20dp"
+                android:drawableTop="@drawable/spinach"
+                android:background="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_nuts"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:text="Nuts"
+                android:layout_margin="20dp"
+                android:drawableTop="@drawable/nuts_title"
+                android:background="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_food"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:text="Food"
+                android:layout_margin="20dp"
+                android:drawableTop="@drawable/gelato"
+                android:background="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_seafood"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:text="Seafood"
+                android:layout_margin="20dp"
+                android:drawableTop="@drawable/fish"
+                android:background="@color/white"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

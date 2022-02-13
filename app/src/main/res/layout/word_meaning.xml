@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+    <TextView
+        android:id="@+id/title_wordmeaning"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/orange"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="700dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_wordmeaning">
+
+        <TextView
+            android:id="@+id/textview_wordmeaning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pink"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/US_speaker_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="US"
+        android:drawableRight="@drawable/ic_speaker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/pink"/>
+
+    <Button
+        android:id="@+id/UK_speaker_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="UK"
+        android:drawableRight="@drawable/ic_speaker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/pink"/>
+
+    <Button
+        android:id="@+id/wordmeaning_not_learned"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Từ chưa học"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/wordmeaning_learned"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Từ đã học"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/green"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

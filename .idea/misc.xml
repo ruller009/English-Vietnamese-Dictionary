@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/drawable/ic_speaker.xml" value="0.2703125" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/drawable/ic_star_hide.xml" value="0.2703125" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/activity_main.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/folder_add_word.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/folder_btn.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/fruit_topic.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/ielts_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/ielts_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/ielts_toeic_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/img_vocab_content.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/img_vocab_demo_content.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/img_vocab_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/img_vocab_showing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/irregular_item_test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/irregular_verb_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/irregular_verb_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/myvocab_imageview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/myvocab_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/myvocab_word_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/myvocabulary_container.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/myvocabulary_folder.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/quiz_content.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/scan_img.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/show_myvocab_word.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/suggestion_row.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/test_for_topic_img.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/toeic_main.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/toeic_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/viet_eng_main.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/layout/word_meaning.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/OfficalApp/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

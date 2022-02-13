@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingClass">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:background="@color/teal_200"
+            app:title="Dictionary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/design_default_color_primary">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:focusable="true"
+                app:queryHint="Type here"
+                />
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#CCCCCC">
+
+            <Button
+                android:id="@+id/vn_eng_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tra từ Việt - Anh"
+                android:layout_margin="15dp"
+                android:textSize="30dp"
+                android:textAllCaps="false"
+                android:background="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Từ vựng thông dụng"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/pink"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textColor="@color/orange"/>
+            <Button
+                android:id="@+id/ielts_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Từ vựng IELTS"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                />
+            <Button
+                android:id="@+id/toeic_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Từ vựng TOEIC"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                />
+            <Button
+                android:id="@+id/irregular_verb_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Động từ bất quy tắc"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                />
+            <Button
+                android:id="@+id/img_vocab_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Học từ bằng hình ảnh"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white"
+                />
+            <Button
+                android:id="@+id/myvocabulary_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textSize="30dp"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                android:text="Từ vựng của bạn"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="SUGGESTION"
+            android:background="@color/purple_200"
+            android:layout_margin="15dp"
+            android:visibility="gone"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/suggestion_container_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

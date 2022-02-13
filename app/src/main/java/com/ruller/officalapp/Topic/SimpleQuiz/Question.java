@@ -1,0 +1,58 @@
+package com.ruller.officalapp.Topic.SimpleQuiz;
+
+public class Question {
+
+    public String questions[] = {
+            "The past simple of do",
+            "Have you ____ your lost dog yet?",
+            "She spoke too softly. I couldn't ____ her",
+            "The base form of would",
+            "But we heard everything she ____",
+    };
+
+    public String choices[][] = {
+            {"did", "done", "does", "dodo"},
+            {"find", "found", "finded", "fear"},
+            {"hear", "heard", "heared", "here"},
+            {"will", "willed", "won", "wow"},
+            {"sayed", "said", "say","saided"}
+    };
+
+    public String correctAnswer[] = {
+            "did",
+            "found",
+            "hear",
+            "will",
+            "said"
+    };
+
+    public String getQuestion(int a){
+        String question = questions[a];
+        return question;
+    }
+
+    public String getchoice1(int a){
+        String choice = choices[a][0];
+        return choice;
+    }
+
+    public String getchoice2(int a){
+        String choice = choices[a][1];
+        return choice;
+    }
+
+    public String getchoice3(int a){
+        String choice = choices[a][2];
+        return choice;
+    }
+
+    public String getchoice4(int a){
+        String choice = choices[a][3];
+        return choice;
+    }
+
+    public String getCorrectAnswer(int a){
+        String answer = correctAnswer[a];
+        return answer;
+    }
+}

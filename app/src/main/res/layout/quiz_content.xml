@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_two"
+        android:layout_centerHorizontal="true"
+        android:background="@color/pink"
+        android:layout_margin="5dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:background="@color/pink"
+        android:layout_margin="5dp"
+        android:layout_above="@+id/btn_three"/>
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:background="@color/pink"
+        android:layout_margin="5dp"
+        android:layout_above="@+id/btn_four"/>
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:background="@color/pink"
+        android:layout_margin="5dp"
+        android:layout_above="@id/quiz_exit"/>
+
+    <Button
+        android:id="@+id/quiz_exit"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Exit training"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"/>
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Question"
+        android:textSize="25sp"
+        android:paddingTop="20sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/green"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/btn_one"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="200sp"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
