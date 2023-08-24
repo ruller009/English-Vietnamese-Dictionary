@@ -1,2 +1,2 @@
 # English-Vietnamese-Dictionary
-The application provides many functions for Vietnamese people to learn English
+The native mobile application provides many functions for Vietnamese people to learn English
